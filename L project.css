@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"open sans", sans-serif;
+    background-image: url(/image\ copy\ 2.png);
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+h1,h2,h3{
+    font-family: "epilogue",sans-serif;
+}
+.login{
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    background-color: white;
+    padding: 2rem 6%;
+    border-radius: 32px;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    width: 100%;
+}
+input{
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius:16px ;
+}
+label{
+    font-size: 0.85rem;
+}
+input::placeholder{
+    color: #555555;
+}
+button{
+    background-color: red;
+    width: 100%;
+    border: none;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 16px;
+}
+.other{
+    border: 1px solid grey;
+    display: flex;
+    gap: 0.5rem;
+    padding: 4px 7px;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+}
+.other > p{
+    flex: 1;
+    text-align: center;
+    color: #555555;
+    font-size: 0.85re;
+}
+.forgot-password{
+    color: #0000ff;
+    align-self: flex-start;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.or{
+    font-weight: 700;
+}
+.sing-up-cta{
+    font-size: 0.65rem;
+    font-weight: 600;
+}
+.terms{
+    text-align: center;
+    font-size: 0.7rem;
+    color: #555555;
+}
